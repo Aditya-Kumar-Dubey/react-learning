@@ -11,9 +11,11 @@ function App() {
 
   const darkTheme = () => {
       setThemeMode('dark');
+      console.log(themeMode);
   }
 
   const lightTheme = () => {
+    console.log(themeMode);
     setThemeMode('light');
   }
 
